@@ -1,7 +1,7 @@
 import { HeroContent } from './hero/HeroContent.js';
 import  VideoPreview  from './hero/VideoPreview.jsx';
 import {Rocket} from 'lucide-react';
-import { Button } from '../ui/Button.js';
+import { Button } from '../ui/Button.tsx';
 export function HeroSection() {
   return (
     <div className="relative min-h-screen flex items-center justify-center pt-16 mt-[36px] overflow-x-hidden">
