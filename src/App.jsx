@@ -10,7 +10,7 @@ import Achievements from './pages/Achievements';
 import AITools from './pages/AITools';
 import Calendar from './pages/Calendar';
 import Billing from './pages/Billing';
-import Home from './components/landing/home';
+import Home from './components/Landing-page/Home';
 
 const App = () => {
   return (
