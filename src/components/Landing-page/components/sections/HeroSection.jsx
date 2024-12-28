@@ -1,4 +1,4 @@
-import { HeroContent } from './hero/HeroContent.js';
+import { HeroContent } from './hero/HeroContent.jsx';
 import  VideoPreview  from './hero/VideoPreview.jsx';
 import {Rocket} from 'lucide-react';
 import { Button } from '../ui/Button.tsx';
