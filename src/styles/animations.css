@@ -1,0 +1,38 @@
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 10px #8200fb40,
+                 0 0 20px #8200fb30,
+                 0 0 30px #8200fb20,
+                 0 0 40px #8200fb10;
+  }
+  50% {
+    text-shadow: 0 0 20px #8200fb50,
+                 0 0 30px #8200fb40,
+                 0 0 40px #8200fb30,
+                 0 0 50px #8200fb20;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
