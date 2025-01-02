@@ -11,6 +11,7 @@ import AITools from './pages/AITools';
 import Calendar from './pages/Calendar';
 import Billing from './pages/Billing';
 import Home from './components/Landing-page/Home';
+import Terms from './components/Refund/Terms';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Routes>
           <Route path="/login" element={<LoginForm />} />
         <Route path="/" element={<Home/>} />
+        <Route path="/terms" element={<Terms/>} />
           <Route
             path="/dashboard"
             element={
